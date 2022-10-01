@@ -28,7 +28,7 @@ public class RegistroProducto extends AppCompatActivity {
         switch (view.getId()){
             case R.id.btnGuardar:
                 //intent = new Intent(this, MainActivity.class );
-                Toast.makeText(getApplicationContext(), "Guardado exitosamente", Toast.LENGTH_SHORT).show();
+                this.registrarUsuario();
                 break;
         }
         if (intent!=null){
