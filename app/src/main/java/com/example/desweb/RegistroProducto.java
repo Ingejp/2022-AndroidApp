@@ -30,6 +30,9 @@ public class RegistroProducto extends AppCompatActivity {
                 //intent = new Intent(this, MainActivity.class );
                 this.registrarUsuario();
                 break;
+            case R.id.btnGuardar2:
+                intent = new Intent(getApplicationContext(), MainActivity.class);
+                break;
         }
         if (intent!=null){
             startActivity(intent);

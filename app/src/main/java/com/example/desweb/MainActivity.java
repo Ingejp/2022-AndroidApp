@@ -18,16 +18,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onClick(View view){
-        //Intent intent = new Intent(this, RegistroProducto.class);
-        //startActivity(intent);
         Intent intent = null;
         switch (view.getId()){
             case R.id.btnRegistrar:
                 intent = new Intent(this, RegistroProducto.class );
                 break;
-           /* case R.id.btnListProducto:
-                intent = new Intent(this, ListaDeProductos.class );
-                break;*/
         }
         if (intent!=null){
             startActivity(intent);
